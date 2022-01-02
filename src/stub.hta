@@ -1,0 +1,20 @@
+<html>
+<head>
+<hta:application
+	id = "<%= htmlWebpackPlugin.options.vars.id %>"
+	applicationname="<%= htmlWebpackPlugin.options.vars.title %>"
+	icon=".app/app.ico"
+	maximizebutton="yes"
+	minimizebutton="yes"
+	navigable="yes"
+	showintaskbar="yes"
+	singleinstance="yes"
+	sysmenu="yes"
+	windowstate="maximize"
+	border="thick"
+	borderstyle="normal"
+	caption="yes"
+>
+</head>
+<script>window.location='.app/app.html';</script>
+</html>
